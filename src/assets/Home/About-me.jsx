@@ -1,7 +1,7 @@
 export const AboutMe = () =>{
     return (
 
-            <div className="relative w-full h-[250px] md:h-[450px] lg:h-[700px] bg-red-500 border border-red-500  ">
+            <div className="relative w-full h-[250px] md:h-[450px] lg:h-[700px]  ">
                 <div className="flex flex-col justify-center items-start absolute inset-0  whitespace-pre-line gap-6 pl-17">
                     <h1 className="text-6xl " style={{ fontFamily: "Bona Nova SC, serif" }}>
                         BIENVENIDOS A <br />
