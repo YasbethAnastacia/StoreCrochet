@@ -6,7 +6,7 @@ const productos = [
 
 export const Informacion = () =>{
     return(
-        <section className="flex flex-col gap-8 min-h-screen w-full  pt-5">
+        <section className="flex flex-col gap-8 min-h-screen w-full  pt-5  border border-green-500 ">
             <div className="h-[350px]  w-full grid grid-cols-[30%_40%_30%] ">
                 <div className=" pr-5 py-8"> 
                     <img className=" w-full h-full object-cover rounded-r-3xl" src={productos[0]} alt="" />
