@@ -6,7 +6,7 @@
 :root{
   --font-primary-text:'Google Sans Flex', sans-serif;
   --font-primary-color: black;
-  --first-color:#feecdf;
+  --first-color:#f4eeea;
   --second-color:#d47f5b;
   --color-white: #ffffff;
 }
@@ -16,4 +16,9 @@ body{
     color: var(--font-primary-color);
     font-size: 18px;
     background-color: var(--first-color)
+}
+
+.categoria-hover:hover{
+  color: var(--color-white);
+  background-color: var(--second-color);
 }
