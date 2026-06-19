@@ -22,7 +22,7 @@ export const Header = () => {
                 <nav className=" text-sm flex justify-end items-end  ">
                     <div className="bg-[var(--color-partes)] rounded-lg">
                         {/*<ul className=" flex  items-end gap-2  bg-blue-500 "> */}
-                        <ul className=" flex gap-y-2 flex-wrap xl:flex-row xl:items-end gap-3  ">
+                        <ul className=" flex gap-y-2 flex-wrap items-center justify-center xl:flex-row xl:items-end gap-3  ">
                                     
                             {categorias.map((categoria) => {
                                 const Icono = categoria.icono;
