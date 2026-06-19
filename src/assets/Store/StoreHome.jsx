@@ -11,22 +11,23 @@ import{Carrito} from "./carrito";
 export const StoreHome = () =>{
     
     return(
-        <main className="px-5 py-3">
+        <main className="bg-[#F8F5F2] min-h-screen px-5 py-3">
         
         
-        <div className=" flex items-center gap-2 pl-5 bg-green-500  py-2 text-sm">
+        <div className=" flex items-center gap-2 pl-5  py-2 text-sm">
             <House className="w-[13px] h-[14px]" />
             <p className="">Home &gt; shop </p>
         </div>
-        
-        <section className="grid grid-cols-[80%_20%] bg-red-500 ">
+        {/*<section className="grid grid-cols-[80%_20%]  "> */}
+        <section className="grid grid-cols-1  lg:grid-cols-[1fr_320px] gap-6">
             
             <section className="flex flex-col gap-5">
 
                 <Header/>
 
-                <div className="grid grid-cols-[20%_80%]   bg-red-200">
-
+                {/*<section className="grid grid-cols-[20%_80%]  "> */}
+                <div className=" grid grid-cols-1 md:grid-cols-[290px_1fr] gap-6"
+>
                     <Filtros/>
 
                     <Menu/>
@@ -36,7 +37,7 @@ export const StoreHome = () =>{
             </section>
 
 
-            <aside className="bg-red-200 pt-12 pl-8">
+            <aside className=" pt-12 pl-8">
                 
                 <Carrito />
 
